@@ -1,11 +1,11 @@
-![LENGUAJE DE PROGRAMACIÓN](https://github.com/gcoronelc/UNI-FIIS-2025-2-SI401-V/blob/main/img/portada.png)
+![INTRODUCCIÓN A LA COMPUTACIÓN](https://github.com/gcoronelc/UNI-FIIS-2025-2-BIC01-W/blob/main/img/portada.png)
 
 # DATOS GENERALES
 
 - Lugar: UNIVERSIDAD NACIONAL DE INGENIERIA
-- Horario: Lunes de 12:00-14:00 Horas
+- Horario: Miercoles de 15-18 Horas
 - Inicio: 25-AGO-2024
-- Aula: LAB-O
+- Aula: S1-226
 - Portal web: https://www.fiis.uni.edu.pe/
 - Dirección: https://goo.gl/maps/SGR2RiuPjonfqSM87
 
