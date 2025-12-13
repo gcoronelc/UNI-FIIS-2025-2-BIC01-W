@@ -1,0 +1,46 @@
+ALGORITMO SumaNPrimerosPares
+
+// ============================================
+// (a) VARIABLES
+// ============================================
+VARIABLES
+    n: Entero
+    suma: Entero
+    i: Entero
+    operacion: Cadena
+
+// ============================================
+// (b) LECTURA
+// ============================================
+INICIO
+    ESCRIBIR "=== SUMA DE LOS N PRIMEROS NUMEROS PARES ==="
+    ESCRIBIR ""
+    
+    ESCRIBIR "Ingrese el valor de n: "
+    LEER n
+    
+    // ============================================
+    // (c) PROCESO
+    // ============================================
+    suma ← 0
+    operacion ← ""
+    
+    PARA i ← 2 HASTA n * 2 CON PASO 2 HACER
+        suma ← suma + i
+        // Construir la cadena de operación
+        SI i = 2 ENTONCES
+            operacion ← ConvertirATexto(i)
+        SINO
+            operacion ← operacion + " + " + ConvertirATexto(i)
+        FIN_SI
+    FIN_PARA
+    
+    // ============================================
+    // (d) REPORTE
+    // ============================================
+    ESCRIBIR ""
+    ESCRIBIR "========== RESULTADO =========="
+    ESCRIBIR operacion + " = " + ConvertirATexto(suma)
+    ESCRIBIR "==============================="
+    
+FIN
